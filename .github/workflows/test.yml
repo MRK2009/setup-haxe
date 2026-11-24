@@ -69,7 +69,7 @@ jobs:
           - haxe: 3.4.7
             hxml_suffix: _haxe3
           - haxe: latest
-            os: ubuntu-24.04-arm
+            os: ubuntu-26.04-arm
 
     env:
       TEST_LIB_HXML: test-workflow/lib${{ matrix.hxml_suffix }}.hxml
